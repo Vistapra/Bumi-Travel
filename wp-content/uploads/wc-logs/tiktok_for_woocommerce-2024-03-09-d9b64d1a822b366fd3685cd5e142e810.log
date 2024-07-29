@@ -1,0 +1,26 @@
+2024-03-09T09:50:14+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_65ec30d640dedhttpsbumitravelidwp-admin","smb_name":"PROD","redirect_url":"https:\/\/bumitravel.id\/wp-admin\/"}
+ ajax: no
+2024-03-09T09:50:14+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240309095013FA8DB9CA70284E61637D,20240309095013FA8DB9CA70284E61637D
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=94
+x-tt-trace-host: 01be9e563352f8618eadf8c99f37effb4394e433c79224eabe2867debeba1550443dcb1e2f9133784f190ef12ac1d1e26b11edcdd5ba1caf82b657e0419a3d488f60603da3fcf981374cb02a97ce7723d6b028d474b39f04b4177ce17f8cf52686
+x-tt-trace-id: 00-240309095013FA8DB9CA70284E61637D-6B9A8A434B1C98C0-00
+Server: TLB
+Content-Encoding: gzip
+Date: Sat, 09 Mar 2024 09:50:14 GMT
+Content-Length: 205
+X-Cache: TCP_MISS from a23-50-117-197.deploy.akamaitechnologies.com (AkamaiGHost/11.4.2.2-54697487) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=110
+X-Origin-Response-Time: 110,23.50.117.197
+X-Akamai-Request-ID: a888b52
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"https:\/\/bumitravel.id\/wp-admin\/","app_id":"7344298789588631554","app_secret":"2384b73f9c6cc43027303aa8405da3dc485e3370","external_data_key":"6d5e9e3b-81cd-417b-879c-e9feb2e93048"}}
